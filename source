@@ -8,6 +8,14 @@ Tab:NewButton("MM2",function() loadstring(game:HttpGet("https://raw.githubuserco
 Tab:NewButton("Hoop Central 6",function() key,HC6 = "hoop horny"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sinsly/hellokitty/main/HC6"))() end, false)
 Tab:NewButton("Jailbreak",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/JailBreak"))() end, false)
+local Tab = Window:NewTab("Universal Scripts",false)
+Tab:NewButton("ESP",function() _G.FriendColor = Color3.fromRGB(0, 0, 255)
+_G.EnemyColor = Color3.fromRGB(255, 0, 0)
+_G.UseTeamColor = false
+
+--------------------------------------------------------------------
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zeroisswag/universal-esp/main/esp.lua"))() end, false)
 local Tab = Window:NewTab("Hubs",false)
 Tab:NewButton("Cheesy Hub",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseyMine/CheeseyHub/main/CheeseyHubV6"))() end, false)
 Tab:NewButton("EZ Hub",function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))() end, false)
