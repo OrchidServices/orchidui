@@ -27,7 +27,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zeroisswag/universal-
 local Tab = Window:NewTab("Hubs",false)
 Tab:NewButton("Cheesy Hub",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseyMine/CheeseyHub/main/CheeseyHubV6"))() end, false)
 Tab:NewButton("EZ Hub",function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))() end, false)
-Tab:NewButton("Dizzy Hub",function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))(); end, false)
+Tab:NewButton("Dizzy Hub",function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))() end, false)
 local Tab = Window:NewTab("Utility",false)
 Tab:NewButton("FOV Changer (120)",function() Workspace.CurrentCamera.FieldOfView = 120 end, false)
 local Tab = Window:NewTab("Credits",false)
